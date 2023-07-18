@@ -2,7 +2,7 @@ function valorValido(chute){
     const numero =+ chute
     if(chuteForInvalido(numero)){
        elementoChute.innerHTML += '<div>Valor inválido</div>'
-       if(chute == 'game over'||'Game over'||'Game Over'){
+       if(chute == 'game over'|| chute =='Game over'|| chute =='Game Over'){
         document.body.style.backgroundColor = "red";
 
         document.body.innerHTML = `
